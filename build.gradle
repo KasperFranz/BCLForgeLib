@@ -28,7 +28,7 @@ group= "net.kaikk.mc.bcl.forge" // http://maven.apache.org/guides/mini/guide-nam
 archivesBaseName = "bclforgelib"
 
 minecraft {
-    version = "1.10.2-12.18.3.2185"
+    version = "1.12.2-14.23.0.2515"
     runDir = "eclipse"
 
     mappings = "snapshot_20161111"
