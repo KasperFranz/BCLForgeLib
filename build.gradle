@@ -11,13 +11,14 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
     }
 }
 
+
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.1"
+version = "1.12.2-1.1"
 
 def ENV = System.getenv()
 if (ENV.BUILD_NUMBER) {
@@ -31,7 +32,7 @@ minecraft {
     version = "1.12.2-14.23.0.2515"
     runDir = "eclipse"
 
-    mappings = "snapshot_20161111"
+    mappings = "snapshot_20171026"
 }
 
 
